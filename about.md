@@ -4,84 +4,32 @@ title: About
 permalink: /about/
 ---
 <div class="man-title">
-  UP AND RUNNING WITH DevJournal
+  Sérgio Gonçalves
 </div>
 <div class="manual manual-title">
-  Posting
-  </div>
-<p>  <div class="manual-content">
-
-      - Create a .markdown file inside <code class="highlighter-rouge">_posts</code> folder.<br />
-      - Name the file according to the format YY-MM-DD-[short name for your post].<br />
-      &nbsp;&nbsp;&nbsp;<code>2016-03-30-i-love-design.markdown</code><br />
-      - Write the <a href="jekyll">Front Matter</a> and content in the file.<br><br>
-      <div class="example">
-
-        <div class="highlight">
-        <pre>
-          ---
-          layout: post | default | page
-          title:  String<span class="hint"> Post Title</span>
-          date:   Time Stamp
-          categories: String | Array of Strings<span class="hint"> Category / Categories </span>
-          ---
-        </pre>
-        </div>
-
-      </div>
-      <div class="example">
-        <div class="highlight">
-        <pre>
-        ---
-        layout: post
-        title:  "The One with the Blackout"
-        date:   2016-03-30 19:45:31 +0530
-        categories: ["life", "friends"]
-        ---
-      </pre>
-    </div>
-      </div>
-
-
-
-</p>
+  About me
 </div>
-<p><br /></p>
+<div class="manual-content">
+  Hi,
+  <p>I'm a software developer that started in the Java world and have moved to Scala somewhere along my way. Currently I'm living in Berlin, Germany and working for Zalando, a tech (and fashion - not necessarily in this order) company.</p>
+  <p>This blog will be mainly for me, for several reasons but to just mention a few:</p>
+    <ul>
+      <li>to help me putting down to words the research I make and to be sure I fully understood the said research;</li>
+      <li>for future quick check - my memory is not the best and I tend to research multiple times the same subject;</li>
+      <li>make me write - improving my communication skills.</li>
+    </ul>
+  <p>If I manage in the process to help at least some other person, it will be definitely worth it.</p>
+  <p>Feedback is always appreciated, so if you want to tell me something, please do - specially if I wrote something wrong.</p>
+</div>
+<br/>
+<div class="manual manual-title">
+  What to expect from this blog
+</div>
 
-  <div class="manual manual-title">
-  Create Pages
-  </div>
-<p>  <div class="manual-content">
+<div class="manual-content">
+  <p>Not much honestly. The plan to start slowly and hope to not forget about it.</p>
+  <p>If everything goes according to plan, you can see posts about what I'm currently working on or about some of my hobbies.</p>
+  <p>Subjects should go from Scala, PostgreSQL, Cassandra, Akka, agile methodologies, keyboards, video games or whatever comes to my mind.</p>
+</div>
 
-      - Create a .md file in the root directory.<br />
-      - Name the file with the desired page link name.<br />
-        &nbsp;&nbsp;&nbsp;<code>about.md</code><br />
-          &nbsp;&nbsp;&nbsp;<code>design.md</code><br />
-      - Write the <a href="jekyll">Front Matter</a> and content in the file.<br><br>
-      <div class="highlight">
-
-
-        <pre>
-          ---
-          layout: page
-          title: String <span class="hint">Title of the webpage</span>
-          permalink: / String / <span class="hint">Permalink for the webpage</span>
-          tagline: String <span class="hint">Optional DevJournal Feature : Tagline for the page</span>
-          ---
-      </pre><br />
-    </div><br>
-      <div class="highlight">
-
-        <pre>
-        ---
-        layout: page
-        title:  "Science"
-        permalink:   /science/
-        tagline : "Humanity is overrated."
-        ---
-      </pre>
-      </div>
-
-
-  </div>
-</p>
+  
